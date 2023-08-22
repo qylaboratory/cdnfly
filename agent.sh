@@ -1,5 +1,7 @@
 #!/bin/bash -x
 
+set -o errexit
+
 #判断系统版本
 check_sys(){
     local checkType=$1
