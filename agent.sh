@@ -236,7 +236,7 @@ fi
 
 cd /opt
 
-download "https://gitee.com/qingyun-studio/cdnfly/raw/main/cdnfly/$tar_gz_name" "https://gitee.com/qingyun-studio/cdnfly/raw/main/cdnfly/$tar_gz_name" "$tar_gz_name"
+download "https://raw.githubusercontent.com/qylaboratory/cdnfly/main/cdnfly/$tar_gz_name" "https://gitee.com/qingyun-studio/cdnfly/raw/main/cdnfly/$tar_gz_name" "$tar_gz_name"
 
 rm -rf $dir_name
 tar xf $tar_gz_name
